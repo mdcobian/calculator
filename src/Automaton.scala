@@ -131,6 +131,7 @@ class Automaton {
     else if(c == ')'){
         if(stk.pop()!='(') return false
         state = q8}
+    else if(c == '.') return false // BUG FIXED: dot after parenthesis is now rejected i.e. "(3)."
     true
     }
 }
