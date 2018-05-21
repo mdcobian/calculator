@@ -1,5 +1,12 @@
 import scala.util.control.Breaks._
 
+// The only function of this class is to accept or reject a mathematical expression
+// that has any of the following characters:
+// 0 1 3 4 5 6 7 8 9
+// + - * /
+// ( )
+// .
+
 class Automaton {
   private val q0 = 0
   private val q1 = 1

@@ -1,4 +1,4 @@
-
+// This is a generic Stack class
 
 class Stack[T]{
   var top:Node[T] = null
